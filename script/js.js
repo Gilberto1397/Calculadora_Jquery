@@ -9,9 +9,6 @@ $(document).ready(function() {
             $("#total").val(" ");
             $("#tipAmount").val(" ");
             //$("#people").val(" ")
-
-
-
         });
     }
 
@@ -23,7 +20,7 @@ $(document).ready(function() {
             if (comandaTotal >= 0) {
                 var gorjetaAcumulada = 0
                 var btn = $(":button")
-                //var people = parseInt($("#people").val())
+                    //var people = parseInt($("#people").val())
 
 
                 $(btn).click(function(e) {
@@ -39,12 +36,12 @@ $(document).ready(function() {
                         $("#total").val("$" + gorjetaAcumulada.toFixed(2));
                         $("#tipAmount").val("$" + gorjeta.toFixed(2));
                         var comandaTotal = $("#comandaTotal").val(" ");
-                       // people += 1
-                      //  $("#people").val("0" + people)
+                        // people += 1
+                        //  $("#people").val("0" + people)
                     } else {
                         comandaTotal = 0
                         gorjetaAcumulada = 0
-                        //people = 0
+                            //people = 0
                     }
 
 
