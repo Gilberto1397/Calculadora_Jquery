@@ -1,0 +1,11 @@
+@import './base.css';
+
+body {
+  padding-top: 60px;
+  background-color: rgb(113, 155, 125);
+}
+
+#app {
+  width: 100%;
+  min-height: 100vh;
+}
